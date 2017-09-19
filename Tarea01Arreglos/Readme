@@ -1,0 +1,17 @@
+ -- Menu --
+Elige el tipo de matriz a generar.
+1 -- Matriz diagonal con 1's.
+2 -- Matriz triangular superior con 0´s.
+3 -- Matriz M*N. Vector B a partir de la suma de numeros pares de cada fila.
+4 -- Numero mayor y menor de un arreglo de numeros aleatorios de tamaño n.
+Opción -----> []
+
+
+//Todos las opciones generan una matriz de tamaño n.
+//En los casos 3 y 4, los rellena con números aleatorios de 1 dígito.
+//Al final de los casos se imprime cada resultado.
+
+Realizado por:
+- Andrik Miranda Torres
+- Arturo Herrera Avila
+-- UTCH 2017 --
