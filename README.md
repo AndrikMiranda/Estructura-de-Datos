@@ -1,2 +1,2 @@
-# Estructura-de-datos-Milton
-Aqui se subirán las prácticas y tareas realziadas para dicha materia.
+# Estructura-de-datos-2017-UTCH
+Prácticas y tareas de la materia.

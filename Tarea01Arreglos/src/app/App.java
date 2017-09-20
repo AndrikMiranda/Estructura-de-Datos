@@ -7,6 +7,7 @@ public class App {
 	public static void main(String[] args) {
 		
 		int c, x;
+		int y=0;//Se agregó al final para corregir fallo de matriz cuadrada en caso 4. Sabemos que no es el mejor lugar para declarar esto.
 		
 		Matriz m = new Matriz();
 		Scanner s = new Scanner(System.in);
@@ -32,8 +33,8 @@ public class App {
 											       + " ****** Arreglo ******\n"
 											       + "*********************\n");
 			
-			m.genMatriz(c, x);
-			m.imprimirMatriz(m);
+			m.genMatriz(c, x,y);
+			m.imprimirMatrizCuadrada(m);
 			
 			break;
 			
@@ -47,8 +48,8 @@ public class App {
 											       + " ****** Arreglo ******\n"
 											       + "*********************\n");
 		
-			m.genMatriz(c, x);
-			m.imprimirMatriz(m);
+			m.genMatriz(c, x,y);
+			m.imprimirMatrizCuadrada(m);
 			
 			break;
 			
@@ -62,8 +63,8 @@ public class App {
 											       + " ****** Arreglo ******\n"
 											       + "*********************\n");
 		
-			m.genMatriz(c, x);
-			m.imprimirMatriz(m);
+			m.genMatriz(c, x,y);
+			m.imprimirMatrizCuadrada(m);
 			
 			System.out.print("\n*********************\n"
 												   + "******* Vector *******\n"
@@ -75,15 +76,17 @@ public class App {
 			
 		case 4:
 			System.out.print("Dimensiones."
-					   + "\nTamaño -->");
+					   + "\nFilas --> ");
 			x=s.nextInt();
+			System.out.print("Columnas --> ");
+			y=s.nextInt();
 		
 		
 			System.out.print("\n*********************\n"
 											       + " ****** Arreglo ******\n"
 											       + "*********************\n");
 		
-			m.genMatriz(c, x);
+			m.genMatriz(c, x,y);
 			m.imprimirMatriz(m);
 			
 			System.out.println("*********************");

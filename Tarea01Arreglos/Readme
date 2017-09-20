@@ -1,13 +1,13 @@
- -- Menu --
+ -- Menú --
 Elige el tipo de matriz a generar.
 1 -- Matriz diagonal con 1's.
 2 -- Matriz triangular superior con 0´s.
-3 -- Matriz M*N. Vector B a partir de la suma de numeros pares de cada fila.
-4 -- Numero mayor y menor de un arreglo de numeros aleatorios de tamaño n.
+3 -- Matriz n*m. Vector B a partir de la suma de números pares de cada fila.
+4 -- Número mayor y menor de un arreglo de números aleatorios de tamaño n*m.
 Opción -----> []
 
 
-//Todos las opciones generan una matriz de tamaño n.
+//Todos las opciones generan una matriz de tamaño n. Excepto el caso 4, el cual genera un arreglo n*m.
 //En los casos 3 y 4, los rellena con números aleatorios de 1 dígito.
 //Al final de los casos se imprime cada resultado.
 
